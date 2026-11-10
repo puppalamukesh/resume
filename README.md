@@ -20,6 +20,11 @@ Master's student in Data Science, AI and Digital Business at Gisma University of
 
 ## Projects
 
+### [Breast Cancer Diagnosis – End-to-End ML Project](https://github.com/puppalamukesh/breast-cancer-diagnosis) · 2026
+- Compared 5 classifiers (Logistic Regression, SVM, KNN, Random Forest, Gradient Boosting) tuned with 5-fold GridSearchCV and selected on F2-score to minimise missed cancers.
+- Best model (calibrated SVM): 97.4% accuracy, 100% precision, 0.993 ROC-AUC on a held-out test set.
+- Served predictions through a FastAPI REST API with input validation; packaged with Docker, tested with pytest and checked by GitHub Actions CI.
+
 ### Music Genre Classification for Audio Streaming · MSc project, 2026
 - Multi-class classifier for 10 genres on the GTZAN dataset (1,000 tracks, 57 audio features).
 - Compared a Logistic Regression baseline with an SVM tuned by 5-fold GridSearchCV on macro F1-score.
@@ -55,5 +60,3 @@ Master's student in Data Science, AI and Digital Business at Gisma University of
 ## Languages
 
 Telugu (native) · English (B2, IELTS 6.0) · Hindi (good) · German (A2, currently learning)
-# resume
-My CV as a Markdown page – MSc Data Science &amp; AI student in Berlin
